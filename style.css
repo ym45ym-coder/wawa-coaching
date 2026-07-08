@@ -69,7 +69,7 @@ a {
 .logo {
     display: inline-flex;
     align-items: center;
-    font-weight: 800;
+    font-weight: 300;
     text-decoration: none;
 }
 
@@ -593,40 +593,39 @@ td:first-child {
     z-index: 40;
     display: grid;
     gap: 8px;
-    width: 132px;
+    width: 112px;
 }
 
 .floating-item {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 7px;
-    min-height: 44px;
-    padding: 9px 13px;
+    gap: 6px;
+    min-height: 42px;
+    padding: 8px 12px;
     text-decoration: none;
     text-align: center;
     color: #fff;
-    background: var(--accent);
     border: 0;
     border-radius: 999px;
     box-shadow: 0 14px 34px rgba(24, 32, 24, 0.2);
-    font-weight: 500;
-    font-size: 0.9rem;
+    font-weight: 800;
+    font-size: 0.84rem;
     letter-spacing: 0.02em;
-    transition: background 0.18s ease, transform 0.18s ease;
+    transition: filter 0.18s ease, transform 0.18s ease, box-shadow 0.18s ease;
 }
 
-.floating-item img {
-    width: 30px;
-    height: 30px;
-    flex: 0 0 30px;
-    object-fit: contain;
+.floating-item span {
+    flex: 0 0 auto;
+    font-size: 0.9rem;
+    line-height: 1;
 }
 
 .floating-item:hover {
     color: #fff;
-    background: var(--brand-dark);
-    transform: translateY(-2px);
+    transform: translateY(-4px);
+    filter: brightness(1.08);
+    box-shadow: 0 18px 34px rgba(24, 32, 24, 0.28);
 }
 
 .floating-label {
@@ -640,17 +639,17 @@ td:first-child {
 
 .floating-item.phone {
     color: #fff;
-    background: var(--accent);
+    background: #ff7300;
 }
 
 .floating-item.sms {
     color: #fff;
-    background: var(--accent);
+    background: #30394b;
 }
 
 .floating-item.consult {
     color: #fff;
-    background: var(--accent);
+    background: #164090;
 }
 
 .site-footer {
@@ -698,7 +697,8 @@ td:first-child {
 
     .floating-item:hover {
         color: #fff;
-        background: var(--brand-dark);
+        transform: translateY(-4px);
+        filter: brightness(1.08);
     }
 
     .secondary-btn:hover {
@@ -725,7 +725,7 @@ td:first-child {
 
     .floating-item:active {
         color: #fff;
-        background: var(--brand-dark);
+        filter: brightness(1.08);
     }
 
     .secondary-btn:active {
@@ -990,10 +990,8 @@ td:first-child {
         border-radius: 999px;
     }
 
-    .floating-item img {
-        width: 30px;
-        height: 30px;
-        flex-basis: 30px;
+    .floating-item span {
+        font-size: 0.9rem;
     }
 
     .floating-label {
