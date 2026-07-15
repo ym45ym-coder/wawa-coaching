@@ -307,7 +307,8 @@ section {
 }
 
 .tuition-section {
-    background: var(--soft);
+    background: #fff;
+    border-top: 1px solid var(--line);
 }
 
 .region-section {
@@ -330,7 +331,7 @@ section {
     min-height: 620px;
     border-radius: 16px;
     background: transparent;
-    filter: drop-shadow(12px 14px 18px rgba(24, 32, 24, 0.28));
+    filter: none;
     touch-action: pan-y;
     user-select: none;
 }
@@ -351,30 +352,30 @@ section {
     z-index: 2;
     display: grid;
     place-items: center;
-    width: 36px;
-    height: 108px;
-    min-height: 108px;
+    width: 30px;
+    height: 74px;
+    min-height: 74px;
     padding: 0;
-    color: #000;
+    color: var(--accent);
     background: transparent;
     box-shadow: none;
-    font-size: 2.4rem;
-    font-weight: 900;
+    font-size: 2rem;
+    font-weight: 400;
     line-height: 1;
     transform: translateY(-50%);
 }
 
 .slider-arrow:hover {
     background: transparent;
-    color: #000;
+    color: var(--green);
 }
 
 .slider-arrow.prev {
-    left: -62px;
+    left: 8px;
 }
 
 .slider-arrow.next {
-    right: -62px;
+    right: 8px;
 }
 
 .intro-grid,
@@ -439,6 +440,18 @@ h2 {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
+}
+
+.program-layout {
+    display: grid;
+    grid-template-columns: minmax(0, 0.86fr) minmax(320px, 1.14fr);
+    gap: 28px;
+    align-items: start;
+}
+
+.program-stack {
+    display: grid;
+    gap: 18px;
 }
 
 .region-grid {
@@ -687,6 +700,10 @@ h2 {
     padding: 30px;
 }
 
+.program-stack .program-card {
+    min-height: auto;
+}
+
 .program-card-image {
     width: 92%;
     height: 180px;
@@ -705,6 +722,54 @@ h2 {
     margin: 0;
     color: var(--muted);
     line-height: 1.75;
+}
+
+.managed-class-card {
+    max-width: 620px;
+    margin: 0 auto;
+    text-align: center;
+    align-self: center;
+}
+
+.managed-class-card .special-slider {
+    margin-top: 12px;
+    margin-bottom: 22px;
+}
+
+.slider-dots {
+    display: flex;
+    justify-content: center;
+    gap: 9px;
+    margin-top: 14px;
+}
+
+.slider-dot {
+    width: 9px;
+    height: 9px;
+    min-height: 9px;
+    padding: 0;
+    border: 0;
+    border-radius: 999px;
+    background: #d7dfd2;
+    box-shadow: none;
+    cursor: pointer;
+    transition: width 0.18s ease, background 0.18s ease;
+}
+
+.slider-dot.active {
+    width: 24px;
+    background: var(--accent);
+}
+
+.managed-class-card .special-card {
+    box-shadow: none;
+}
+
+.programs-process-image {
+    display: block;
+    width: min(100%, 706px);
+    height: auto;
+    margin: 58px auto 0;
 }
 
 .timeline {
@@ -994,6 +1059,13 @@ td:first-child {
     }
 }
 
+@media (max-width: 1100px) {
+    .tuition-grid {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+}
+
 @media (max-width: 900px) {
     .hero-section {
         display: grid;
@@ -1072,6 +1144,15 @@ td:first-child {
 
     .program-grid {
         grid-template-columns: 1fr;
+    }
+
+    .program-layout {
+        grid-template-columns: 1fr;
+        gap: 22px;
+    }
+
+    .managed-class-card {
+        max-width: 100%;
     }
 
     .region-grid,
@@ -1193,17 +1274,17 @@ td:first-child {
 
     .slider-arrow {
         width: 28px;
-        height: 92px;
-        min-height: 92px;
-        font-size: 2rem;
+        height: 64px;
+        min-height: 64px;
+        font-size: 1.8rem;
     }
 
     .slider-arrow.prev {
-        left: -28px;
+        left: 6px;
     }
 
     .slider-arrow.next {
-        right: -28px;
+        right: 6px;
     }
 
     .timeline li {

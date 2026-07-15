@@ -2,6 +2,7 @@ const slides = Array.from(document.querySelectorAll(".special-slide"));
 const prevButton = document.querySelector(".slider-arrow.prev");
 const nextButton = document.querySelector(".slider-arrow.next");
 const sliderCard = document.querySelector(".special-card");
+const dots = Array.from(document.querySelectorAll(".slider-dot"));
 
 let currentSlide = 0;
 let swipeStartX = 0;
@@ -14,6 +15,9 @@ function showSlide(index) {
     slides.forEach((slide, slideIndex) => {
         slide.classList.toggle("active", slideIndex === currentSlide);
     });
+    dots.forEach((dot, dotIndex) => {
+        dot.classList.toggle("active", dotIndex === currentSlide);
+    });
 }
 
 prevButton?.addEventListener("click", () => {
@@ -22,6 +26,12 @@ prevButton?.addEventListener("click", () => {
 
 nextButton?.addEventListener("click", () => {
     showSlide(currentSlide + 1);
+});
+
+dots.forEach((dot, dotIndex) => {
+    dot.addEventListener("click", () => {
+        showSlide(dotIndex);
+    });
 });
 
 sliderCard?.addEventListener("pointerdown", (event) => {
