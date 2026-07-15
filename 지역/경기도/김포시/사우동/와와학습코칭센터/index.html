@@ -33,7 +33,6 @@
             <nav class="main-nav" aria-label="주요 메뉴">
                 <a href="#about">학원소개</a>
                 <a href="#programs">프로그램</a>
-                <a href="#process">수업과정</a>
                 <a href="#tuition">수강안내</a>
                 <a href="#local-area">지역안내</a>
             </nav>
@@ -94,56 +93,50 @@
                 </div>
             </div>
         </section>
-
         <section id="programs" class="program-section">
             <div class="container">
                 <div class="section-header">
                     <p class="section-label">Programs</p>
                     <h2>학생 변화에 집중하는 학습코칭</h2>
                 </div>
-                <div class="program-grid">
-                    <article class="program-card">
-                        <h3>학습 계획 관리</h3>
-                        <img class="program-card-image" src="../../../../../assets/program-planner.png" alt="학습 플래너">
-                        <p>목표 점수와 시험 일정을 기준으로 주간 학습량을 설계하고, 매일 실천 가능한 플래너 루틴을 잡아줍니다.</p>
-                    </article>
-                    <article class="program-card">
-                        <h3>영어·수학 맞춤 수업</h3>
-                        <img class="program-card-image" src="../../../../../assets/program-custom-class.jpg" alt="영어 수학 맞춤 수업">
-                        <p>학생별 이해도에 맞춘 개념 설명, 유형 적용, 반복 훈련, 오답 정리로 부족한 단원을 보완해나갑니다.</p>
-                    </article>
-                    <article class="program-card">
-                        <h3>피드백 생활 관리</h3>
-                        <img class="program-card-image" src="../../../../../assets/program-feedback.png" alt="피드백 생활 관리">
-                        <p>하원 이후에도 과제 수행률 확인과 학원 밖 공부 습관까지 이어갑니다.</p>
-                    </article>
-                </div>
-            </div>
-        </section>
-
-        <section id="process" class="process-section">
-            <div class="container process-grid">
-                <div class="process-heading">
-                    <p class="section-label">Process</p>
-                    <h2>A TO Z, 한눈에 보는 수업 흐름</h2>
-                    <p>학생별로 출발점이 다르기 때문에 수업도, 과제도, 피드백도 달라야 합니다.</p>
-                </div>
-                <ol class="timeline">
-                    <li><strong>학습 목표 설정</strong><span>스스로 공부 계획을 세워보며 자기주도능력을 향상시킵니다.</span></li>
-                    <li><strong>질문과 피드백</strong><span>선생님의 피드백을 통해 학습 내용을 보완합니다.</span></li>
-                    <li><strong>스스로 풀어보기</strong><span>혼자 문제를 풀어보며, 답을 찾아가는 과정을 통해 문제 해결 능력을 향상시킵니다.</span></li>
-                    <li><strong>학습 확인 및 숙제지시</strong><span>오늘 어떤 부분이 부족했는지 파악하고, 다음 학습을 위한 숙제를 지시합니다.</span></li>
-                </ol>
-                <div class="special-slider" aria-label="특별한 학원 소개 이미지">
-                    <button class="slider-arrow prev" type="button" aria-label="이전 이미지">&lt;</button>
-                    <div class="special-card">
-                        <img class="special-slide active" src="../../../../../assets/special-1.png" alt="숙제관리">
-                        <img class="special-slide" src="../../../../../assets/special-2.png" alt="플랜관리">
-                        <img class="special-slide" src="../../../../../assets/special-3.png" alt="학습관리">
+                <div class="program-layout">
+                    <div class="program-stack">
+                        <article class="program-card">
+                            <h3>플래너 수업</h3>
+                            <img class="program-card-image" src="../../../../../assets/program-planner.png" alt="학습 플래너">
+                            <p>목표 점수와 시험 일정을 기준으로 주간 학습량을 설계하고, 매일 실천 가능한 플래너 루틴을 잡아줍니다.</p>
+                        </article>
+                        <article class="program-card">
+                            <h3>영어·수학 맞춤 수업</h3>
+                            <img class="program-card-image" src="../../../../../assets/program-custom-class.jpg" alt="영어 수학 맞춤 수업">
+                            <p>학생별 이해도에 맞춘 개념 설명, 유형 적용, 반복 훈련, 오답 정리로 부족한 단원을 보완해나갑니다.</p>
+                        </article>
+                        <article class="program-card">
+                            <h3>공부 습관 개선</h3>
+                            <img class="program-card-image" src="../../../../../assets/program-feedback.png" alt="공부 습관 개선">
+                            <p>하원 이후에도 과제 수행률 확인과 학원 밖 공부 습관까지 이어갑니다.</p>
+                        </article>
                     </div>
-                    <button class="slider-arrow next" type="button" aria-label="다음 이미지">&gt;</button>
+                    <article class="program-card managed-class-card">
+                        <h3>관리형 수업</h3>
+                        <div class="special-slider" aria-label="관리형 수업 이미지">
+                            <button class="slider-arrow prev" type="button" aria-label="이전 이미지">‹</button>
+                            <div class="special-card">
+                                <img class="special-slide active" src="../../../../../assets/special-1.png" alt="숙제관리">
+                                <img class="special-slide" src="../../../../../assets/special-2.png" alt="플랜관리">
+                                <img class="special-slide" src="../../../../../assets/special-3.png" alt="학습관리">
+                            </div>
+                            <button class="slider-arrow next" type="button" aria-label="다음 이미지">›</button>
+                        </div>
+                            <div class="slider-dots" aria-label="슬라이드 위치">
+                                <button class="slider-dot active" type="button" aria-label="1번째 이미지"></button>
+                                <button class="slider-dot" type="button" aria-label="2번째 이미지"></button>
+                                <button class="slider-dot" type="button" aria-label="3번째 이미지"></button>
+                            </div>
+                        <p>자기주도학습력을 형성 시킬 수 있도록 플랜, 학습, 숙제관리가 들어갑니다.</p>
+                    </article>
                 </div>
-                <img class="process-students-image" src="../../../../../assets/guide-students.png" alt="와와에서 만나면 좋은 학생 유형">
+                <img id="process" class="programs-process-image" src="../../../../../assets/guide-students.png" alt="와와에서 만나면 좋은 학생 유형">
             </div>
         </section>
 
