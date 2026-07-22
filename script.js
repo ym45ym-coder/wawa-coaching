@@ -51,3 +51,44 @@ sliderCard?.addEventListener("pointerup", (event) => {
         showSlide(currentSlide - 1);
     }
 });
+
+const siteHeader = document.querySelector(".site-header");
+let lastScrollY = window.scrollY;
+let ticking = false;
+
+function updateMobileHeader() {
+    if (!siteHeader) return;
+
+    const currentScrollY = window.scrollY;
+    const isMobile = window.matchMedia("(max-width: 900px)").matches;
+    const delta = currentScrollY - lastScrollY;
+
+    if (!isMobile || currentScrollY < 40) {
+        siteHeader.classList.remove("header-hidden");
+        lastScrollY = currentScrollY;
+        ticking = false;
+        return;
+    }
+
+    if (delta > 8) {
+        siteHeader.classList.add("header-hidden");
+    } else if (delta < -8) {
+        siteHeader.classList.remove("header-hidden");
+    }
+
+    lastScrollY = currentScrollY;
+    ticking = false;
+}
+
+window.addEventListener("scroll", () => {
+    if (ticking) return;
+    ticking = true;
+    window.requestAnimationFrame(updateMobileHeader);
+}, { passive: true });
+
+window.addEventListener("resize", () => {
+    if (!window.matchMedia("(max-width: 900px)").matches) {
+        siteHeader?.classList.remove("header-hidden");
+    }
+    lastScrollY = window.scrollY;
+});
