@@ -1050,65 +1050,78 @@ td:first-child {
     bottom: 22px;
     z-index: 40;
     display: grid;
-    gap: 8px;
-    width: 112px;
+    justify-items: end;
+    gap: 10px;
+    width: auto;
 }
 
 .floating-item {
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 6px;
-    min-height: 42px;
-    padding: 8px 12px;
+    gap: 0;
+    width: 48px;
+    height: 48px;
+    min-height: 48px;
+    padding: 0;
+    overflow: hidden;
     text-decoration: none;
     text-align: center;
-    color: #fff;
-    border: 0;
+    white-space: nowrap;
+    color: var(--ink);
+    background: #fff;
+    border: 1px solid rgba(255, 115, 0, 0.34);
     border-radius: 999px;
-    box-shadow: 0 14px 34px rgba(24, 32, 24, 0.2);
+    box-shadow: 0 4px 12px rgba(24, 32, 24, 0.1);
     font-weight: 400;
     font-size: 0.8rem;
     font-family: "NanumSquareNeo", "Pretendard", "Noto Sans KR", "Segoe UI", Arial, sans-serif;
-    letter-spacing: 0.04em;
-    transition: filter 0.18s ease, transform 0.18s ease, box-shadow 0.18s ease;
+    letter-spacing: 0.02em;
+    transition: width 0.2s ease, color 0.18s ease, border-color 0.18s ease, transform 0.18s ease, box-shadow 0.18s ease;
 }
 
-.floating-item span {
+.floating-item .floating-icon {
     flex: 0 0 auto;
-    font-size: 0.9rem;
+    width: 48px;
+    font-size: 1.12rem;
     line-height: 1;
 }
 
+.floating-item .floating-text {
+    display: inline-block;
+    width: 0;
+    overflow: hidden;
+    opacity: 0;
+    font-size: 0.78rem;
+    transition: width 0.2s ease, opacity 0.14s ease;
+}
+
 .floating-item:hover {
-    color: #fff;
-    transform: translateY(-4px);
-    filter: brightness(1.08);
-    box-shadow: 0 18px 34px rgba(24, 32, 24, 0.28);
+    width: 116px;
+    color: var(--accent);
+    border-color: var(--accent);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 14px rgba(24, 32, 24, 0.13);
 }
 
-.floating-label {
-    font-size: 0.8rem;
-    font-weight: 900;
-}
-
-.floating-item strong {
-    font-size: 0.98rem;
+.floating-item:hover .floating-text {
+    width: 62px;
+    opacity: 1;
 }
 
 .floating-item.phone {
-    color: #fff;
-    background: #ff7300;
+    color: var(--ink);
+    background: #fff;
 }
 
 .floating-item.sms {
-    color: #fff;
-    background: #30394b;
+    color: var(--ink);
+    background: #fff;
 }
 
 .floating-item.consult {
-    color: #fff;
-    background: #164090;
+    color: var(--ink);
+    background: #fff;
 }
 
 .site-footer {
@@ -1159,9 +1172,8 @@ td:first-child {
     }
 
     .floating-item:hover {
-        color: #fff;
-        transform: translateY(-4px);
-        filter: brightness(1.08);
+        color: var(--accent);
+        transform: translateY(-2px);
     }
 
     .secondary-btn:hover {
@@ -1187,8 +1199,8 @@ td:first-child {
     }
 
     .floating-item:active {
-        color: #fff;
-        filter: brightness(1.08);
+        color: var(--accent);
+        border-color: var(--accent);
     }
 
     .secondary-btn:active {
@@ -1477,29 +1489,25 @@ td:first-child {
     .floating-contact {
         right: 14px;
         bottom: 14px;
-        left: 14px;
+        left: auto;
         width: auto;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: 1fr;
         gap: 8px;
     }
 
     .floating-item {
-        min-height: 50px;
-        padding: 8px 7px;
-        text-align: center;
-        font-size: 0.82rem;
-        border-radius: 999px;
+        width: 46px;
+        height: 46px;
+        min-height: 46px;
+        padding: 0;
     }
 
-    .floating-item span {
-        font-size: 0.9rem;
+    .floating-item .floating-icon {
+        width: 46px;
+        font-size: 1.08rem;
     }
 
-    .floating-label {
-        font-size: 0.75rem;
-    }
-
-    .floating-item strong {
-        font-size: 0.86rem;
+    .floating-item .floating-text {
+        display: none;
     }
 }
