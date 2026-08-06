@@ -1085,6 +1085,7 @@ td:first-child {
     width: 48px;
     font-size: 1.12rem;
     line-height: 1;
+    transition: width 0.2s ease, opacity 0.14s ease;
 }
 
 .floating-item .floating-text {
@@ -1093,6 +1094,7 @@ td:first-child {
     overflow: hidden;
     opacity: 0;
     font-size: 0.78rem;
+    text-align: center;
     transition: width 0.2s ease, opacity 0.14s ease;
 }
 
@@ -1105,8 +1107,13 @@ td:first-child {
 }
 
 .floating-item:hover .floating-text {
-    width: 62px;
+    width: 100%;
     opacity: 1;
+}
+
+.floating-item:hover .floating-icon {
+    width: 0;
+    opacity: 0;
 }
 
 .floating-item.phone {
