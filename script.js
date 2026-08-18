@@ -92,3 +92,18 @@ window.addEventListener("resize", () => {
     }
     lastScrollY = window.scrollY;
 });
+
+const trialForm = document.querySelector(".trial-form");
+const trialToast = document.querySelector(".trial-toast");
+let trialToastTimer;
+
+trialForm?.addEventListener("submit", () => {
+    if (!trialToast) return;
+
+    window.clearTimeout(trialToastTimer);
+    trialToast.classList.add("is-visible");
+
+    trialToastTimer = window.setTimeout(() => {
+        trialToast.classList.remove("is-visible");
+    }, 2200);
+});
