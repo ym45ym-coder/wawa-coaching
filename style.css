@@ -371,6 +371,7 @@ section {
 .trial-field textarea {
     width: 100%;
     min-height: 58px;
+    height: 58px;
     padding: 0 18px;
     color: var(--ink);
     background: #fff;
@@ -392,6 +393,7 @@ section {
 
 .trial-field textarea {
     min-height: 160px;
+    height: auto;
     padding-top: 18px;
     resize: vertical;
 }
@@ -1609,9 +1611,24 @@ td:first-child {
         padding: 66px 0;
     }
 
-    .trial-form-grid,
-    .trial-subjects {
+    .trial-form-grid {
         grid-template-columns: 1fr;
+    }
+
+    .trial-subjects {
+        grid-template-columns: repeat(6, minmax(0, 1fr));
+    }
+
+    .trial-subjects label {
+        grid-column: span 2;
+    }
+
+    .trial-subjects label:nth-child(4) {
+        grid-column: 2 / span 2;
+    }
+
+    .trial-subjects label:nth-child(5) {
+        grid-column: 4 / span 2;
     }
 
     .trial-section .section-header {
