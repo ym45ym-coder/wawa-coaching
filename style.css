@@ -443,6 +443,40 @@ h2 {
     border-radius: var(--radius);
 }
 
+.subject-guide-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 16px;
+    width: min(100%, 706px);
+    margin: 26px auto 0;
+}
+
+.subject-guide-card {
+    padding: 24px 18px;
+    text-align: left;
+    background: #fff;
+    border: 1px solid rgba(255, 115, 0, 0.24);
+    border-radius: var(--radius);
+    box-shadow: 0 10px 24px rgba(36, 79, 35, 0.08);
+}
+
+.subject-guide-card h3 {
+    margin: 0 0 14px;
+    color: var(--accent);
+    font-size: 1.45rem;
+    text-align: center;
+}
+
+.subject-guide-card ul {
+    display: grid;
+    gap: 8px;
+    margin: 0;
+    padding-left: 18px;
+    color: var(--ink);
+    font-size: 1rem;
+    line-height: 1.55;
+}
+
 .section-header {
     max-width: 720px;
     margin: 0 auto 38px;
@@ -1435,6 +1469,16 @@ td:first-child {
 
     .region-section {
         padding: 36px 0;
+    }
+
+    .subject-guide-grid {
+        grid-template-columns: 1fr;
+        gap: 12px;
+        margin-top: 20px;
+    }
+
+    .subject-guide-card {
+        padding: 20px 18px;
     }
 
     .special-slider {
