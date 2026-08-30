@@ -1428,9 +1428,23 @@ td:first-child {
         background: var(--accent);
     }
 
-    .floating-item:active {
+    .floating-item:active,
+    .floating-item:focus {
         color: var(--accent);
         border-color: var(--accent);
+        width: 116px;
+    }
+
+    .floating-item:active .floating-text,
+    .floating-item:focus .floating-text {
+        width: 100%;
+        opacity: 1;
+    }
+
+    .floating-item:active .floating-icon,
+    .floating-item:focus .floating-icon {
+        width: 0;
+        opacity: 0;
     }
 
     .secondary-btn:active {
@@ -1777,6 +1791,8 @@ td:first-child {
     }
 
     .floating-item .floating-text {
-        display: none;
+        display: inline-block;
+        width: 0;
+        opacity: 0;
     }
 }
