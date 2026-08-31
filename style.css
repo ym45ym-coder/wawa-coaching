@@ -1,4 +1,4 @@
-@import url("https://cdn.jsdelivr.net/gh/eunchurn/NanumSquareNeo@0.0.6/nanumsquareneo.css");
+﻿@import url("https://cdn.jsdelivr.net/gh/eunchurn/NanumSquareNeo@0.0.6/nanumsquareneo.css");
 
 :root {
     color-scheme: light;
@@ -1288,9 +1288,9 @@ td:first-child {
     white-space: nowrap;
     color: var(--ink);
     background: #fff;
-    border: 1px solid rgba(255, 115, 0, 0.34);
+    border: 0;
     border-radius: 999px;
-    box-shadow: 0 4px 12px rgba(24, 32, 24, 0.1);
+    box-shadow: 0 8px 18px rgba(24, 32, 24, 0.16), 0 2px 5px rgba(24, 32, 24, 0.1);
     font-weight: 400;
     font-size: 0.8rem;
     font-family: "NanumSquareNeo", "Pretendard", "Noto Sans KR", "Segoe UI", Arial, sans-serif;
@@ -1319,9 +1319,9 @@ td:first-child {
 .floating-item:hover {
     width: 116px;
     color: var(--accent);
-    border-color: var(--accent);
-    transform: translateY(-2px);
-    box-shadow: 0 6px 14px rgba(24, 32, 24, 0.13);
+    height: 48px;
+    min-height: 48px;
+    box-shadow: 0 12px 24px rgba(24, 32, 24, 0.18), 0 3px 7px rgba(24, 32, 24, 0.12);
 }
 
 .floating-item:hover .floating-text {
@@ -1398,7 +1398,6 @@ td:first-child {
 
     .floating-item:hover {
         color: var(--accent);
-        transform: translateY(-2px);
     }
 
     .secondary-btn:hover {
@@ -1431,8 +1430,9 @@ td:first-child {
     .floating-item:active,
     .floating-item:focus {
         color: var(--accent);
-        border-color: var(--accent);
         width: 116px;
+        height: 46px;
+        min-height: 46px;
     }
 
     .floating-item:active .floating-text,
