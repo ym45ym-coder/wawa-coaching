@@ -319,6 +319,7 @@ section {
 }
 
 .trial-section {
+    scroll-margin-top: 118px;
     padding: 92px 0;
     background: #fff5ec;
 }
@@ -1659,6 +1660,10 @@ td:first-child {
     .trial-section,
     .tuition-section {
         padding: 66px 0;
+    }
+
+    .trial-section {
+        scroll-margin-top: 168px;
     }
 
     .trial-form-grid {
