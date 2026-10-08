@@ -1801,3 +1801,51 @@ td:first-child {
         opacity: 0;
     }
 }
+
+.home-footer {
+    padding-top: 32px;
+}
+
+.home-footer .footer-inner {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1.25fr);
+    gap: 32px;
+    align-items: start;
+    text-align: left;
+}
+
+.home-footer-info {
+    display: grid;
+    gap: 4px;
+}
+
+.home-footer-directory {
+    color: inherit;
+    font-size: 0.72rem;
+    font-weight: 400;
+}
+
+.home-footer .home-footer-topics span {
+    font-size: 0.6rem;
+    font-weight: 300;
+}
+
+.home-footer-topics {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 0;
+    margin: 12px 0 0;
+}
+
+.home-footer .home-footer-topics span + span::before {
+    content: "ㅣ";
+    padding: 0 4px;
+}
+
+@media (max-width: 760px) {
+    .home-footer .footer-inner {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 24px;
+    }
+}
+
