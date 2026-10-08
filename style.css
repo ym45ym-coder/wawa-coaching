@@ -1849,3 +1849,150 @@ td:first-child {
     }
 }
 
+/* Shared typography for main and regional detail pages. */
+.region-info-panel h2,
+.intro-section h2,
+.program-section h2,
+.region-map-section h2,
+.trial-section .section-header h2,
+.tuition-section h2 {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+.region-info-panel p:not(.section-label),
+.region-tags span,
+.school-list li,
+.intro-copy p,
+.subject-guide-card ul,
+.subject-guide-card li,
+.program-card p,
+.faq-list p,
+.price-panel .tuition-note {
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.subject-guide-card h3,
+.program-card h3,
+.faq-list summary,
+.price-panel h3 {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.trial-section,
+.trial-section .section-header p,
+.trial-field label,
+.trial-field input,
+.trial-field select,
+.trial-field option,
+.trial-field textarea,
+.trial-field input::placeholder,
+.trial-field textarea::placeholder,
+.trial-privacy,
+.trial-submit,
+.trial-toast {
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.trial-toast {
+    font-weight: 600;
+}
+
+.price-panel td {
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.price-panel th,
+.price-panel td:first-child {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.region-info-panel,
+.subject-guide-card,
+.program-card,
+.trial-field,
+.price-panel,
+.faq-list,
+.faq-list details {
+    min-width: 0;
+    overflow-wrap: anywhere;
+}
+
+.trial-privacy input {
+    flex-shrink: 0;
+}
+
+.section-label,
+.trial-section .section-header .section-label {
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.region-hero-copy h1,
+.region-hero-copy h1 span,
+.hero-content h1,
+.hero-content h1 span {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 1.4;
+}
+
+.region-hero-copy p:not(.section-label),
+.level-test-btn,
+.trial-section .section-header p:not(.section-label),
+.trial-field input::placeholder,
+.trial-field textarea::placeholder,
+.trial-privacy {
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.level-test-btn {
+    padding: 10px 21px;
+}
+
+.trial-field label {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.trial-field select,
+.trial-field select option {
+    font-size: 13px;
+    font-weight: 300;
+}
+
+.trial-submit {
+    width: min(50%, 200px);
+    font-weight: 500;
+}
+
+.faq-list summary {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.faq-list p {
+    font-size: 12px;
+    font-weight: 300;
+}
+
+@media (max-width: 620px) {
+    .price-panel th,
+    .price-panel td {
+        padding: 12px 4px;
+    }
+}
+
+.region-hero-copy > .section-label {
+    display: none;
+}
+
+
