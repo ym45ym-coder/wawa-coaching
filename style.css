@@ -163,6 +163,10 @@ a:active {
     text-transform: uppercase;
 }
 
+.hero-content h1 .category-brand {
+    margin: 0 0 16px;
+}
+
 .hero-content h1 {
     margin: 0;
     font-size: clamp(3.05rem, 6.2vw, 5.9rem);
