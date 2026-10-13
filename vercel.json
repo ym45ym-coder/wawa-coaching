@@ -1031,14 +1031,14 @@
                           "permanent":  true
                       },
                       {
-                          "source":  "/지역/대구/북구/학암/",
-                          "destination":  "/지역/대구/북구/학암/와와학습코칭센터학원/",
-                          "permanent":  true
+                          "source": "/지역/대구/북구/학암/",
+                          "destination": "/지역/대구/북구/학정/와와학습코칭센터학원/",
+                          "statusCode": 301
                       },
                       {
-                          "source":  "/지역/대구/북구/학암동/",
-                          "destination":  "/지역/대구/북구/학암동/와와학습코칭센터학원/",
-                          "permanent":  true
+                          "source": "/지역/대구/북구/학암동/",
+                          "destination": "/지역/대구/북구/학정동/와와학습코칭센터학원/",
+                          "statusCode": 301
                       },
                       {
                           "source":  "/지역/대구/수성구/노변동/",
@@ -2226,9 +2226,9 @@
                           "permanent":  true
                       },
                       {
-                          "source":  "/지역/수원/장안구/장지동/",
-                          "destination":  "/지역/수원/장안구/장지동/와와학습코칭센터학원/",
-                          "permanent":  true
+                          "source": "/지역/수원/장안구/장지동/",
+                          "destination": "/지역/수원/장안구/정자동/와와학습코칭센터학원/",
+                          "statusCode": 301
                       },
                       {
                           "source":  "/지역/수원/장안구/천천동/",
@@ -2961,24 +2961,24 @@
                           "permanent":  true
                       },
                       {
-                          "source":  "/지역/전북/완주군이서면/만성동/",
-                          "destination":  "/지역/전북/완주군이서면/만성동/와와학습코칭센터학원/",
-                          "permanent":  true
+                          "source": "/지역/전북/완주군이서면/만성동/",
+                          "destination": "/지역/전주/덕진구/만성동/와와학습코칭센터학원/",
+                          "statusCode": 301
                       },
                       {
-                          "source":  "/지역/전북/완주군이서면/장동/",
-                          "destination":  "/지역/전북/완주군이서면/장동/와와학습코칭센터학원/",
-                          "permanent":  true
+                          "source": "/지역/전북/완주군이서면/장동/",
+                          "destination": "/지역/전주/덕진구/장동/와와학습코칭센터학원/",
+                          "statusCode": 301
                       },
                       {
-                          "source":  "/지역/전북/완주군이서면/전주혁신도시/",
-                          "destination":  "/지역/전북/완주군이서면/전주혁신도시/와와학습코칭센터학원/",
-                          "permanent":  true
+                          "source": "/지역/전북/완주군이서면/전주혁신도시/",
+                          "destination": "/지역/전주/덕진구/전주혁신도시/와와학습코칭센터학원/",
+                          "statusCode": 301
                       },
                       {
-                          "source":  "/지역/전북/완주군이서면/혁신동/",
-                          "destination":  "/지역/전북/완주군이서면/혁신동/와와학습코칭센터학원/",
-                          "permanent":  true
+                          "source": "/지역/전북/완주군이서면/혁신동/",
+                          "destination": "/지역/전주/덕진구/혁신동/와와학습코칭센터학원/",
+                          "statusCode": 301
                       },
                       {
                           "source":  "/지역/전주/덕진구/덕진동/",
@@ -3729,6 +3729,102 @@
                           "source":  "/지역/화성/효행구/수영리/",
                           "destination":  "/지역/화성/효행구/수영리/와와학습코칭센터학원/",
                           "permanent":  true
-                      }
+                      },
+                      {"source":"/%EC%A7%80%EC%97%AD/%EB%8C%80%EA%B5%AC/%EB%B6%81%EA%B5%AC/%ED%95%99%EC%95%94%EB%8F%99/","destination":"/지역/대구/북구/학정동/와와학습코칭센터학원/","statusCode":301},
+                      {"source":"/지역/대구/북구/학암동","destination":"/지역/대구/북구/학정동/와와학습코칭센터학원/","statusCode":301},
+                      {"source":"/%EC%A7%80%EC%97%AD/%EB%8C%80%EA%B5%AC/%EB%B6%81%EA%B5%AC/%ED%95%99%EC%95%94%EB%8F%99","destination":"/지역/대구/북구/학정동/와와학습코칭센터학원/","statusCode":301},
+                      {"source":"/지역/대구/북구/학암동/index.html","destination":"/지역/대구/북구/학정동/와와학습코칭센터학원/","statusCode":301},
+                      {"source":"/%EC%A7%80%EC%97%AD/%EB%8C%80%EA%B5%AC/%EB%B6%81%EA%B5%AC/%ED%95%99%EC%95%94%EB%8F%99/index.html","destination":"/지역/대구/북구/학정동/와와학습코칭센터학원/","statusCode":301},
+                      {"source":"/지역/대구/북구/학암동/와와학습코칭센터학원/","destination":"/지역/대구/북구/학정동/와와학습코칭센터학원/","statusCode":301},
+                      {"source":"/%EC%A7%80%EC%97%AD/%EB%8C%80%EA%B5%AC/%EB%B6%81%EA%B5%AC/%ED%95%99%EC%95%94%EB%8F%99/%EC%99%80%EC%99%80%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD%EC%84%BC%ED%84%B0%ED%95%99%EC%9B%90/","destination":"/지역/대구/북구/학정동/와와학습코칭센터학원/","statusCode":301},
+                      {"source":"/지역/대구/북구/학암동/와와학습코칭센터학원","destination":"/지역/대구/북구/학정동/와와학습코칭센터학원/","statusCode":301},
+                      {"source":"/%EC%A7%80%EC%97%AD/%EB%8C%80%EA%B5%AC/%EB%B6%81%EA%B5%AC/%ED%95%99%EC%95%94%EB%8F%99/%EC%99%80%EC%99%80%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD%EC%84%BC%ED%84%B0%ED%95%99%EC%9B%90","destination":"/지역/대구/북구/학정동/와와학습코칭센터학원/","statusCode":301},
+                      {"source":"/지역/대구/북구/학암동/와와학습코칭센터학원/index.html","destination":"/지역/대구/북구/학정동/와와학습코칭센터학원/","statusCode":301},
+                      {"source":"/%EC%A7%80%EC%97%AD/%EB%8C%80%EA%B5%AC/%EB%B6%81%EA%B5%AC/%ED%95%99%EC%95%94%EB%8F%99/%EC%99%80%EC%99%80%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD%EC%84%BC%ED%84%B0%ED%95%99%EC%9B%90/index.html","destination":"/지역/대구/북구/학정동/와와학습코칭센터학원/","statusCode":301},
+                      {"source":"/지역/대구/북구/학정동/","destination":"/지역/대구/북구/학정동/와와학습코칭센터학원/","statusCode":301},
+                      {"source":"/%EC%A7%80%EC%97%AD/%EB%8C%80%EA%B5%AC/%EB%B6%81%EA%B5%AC/%ED%95%99%EC%95%94/","destination":"/지역/대구/북구/학정/와와학습코칭센터학원/","statusCode":301},
+                      {"source":"/지역/대구/북구/학암","destination":"/지역/대구/북구/학정/와와학습코칭센터학원/","statusCode":301},
+                      {"source":"/%EC%A7%80%EC%97%AD/%EB%8C%80%EA%B5%AC/%EB%B6%81%EA%B5%AC/%ED%95%99%EC%95%94","destination":"/지역/대구/북구/학정/와와학습코칭센터학원/","statusCode":301},
+                      {"source":"/지역/대구/북구/학암/index.html","destination":"/지역/대구/북구/학정/와와학습코칭센터학원/","statusCode":301},
+                      {"source":"/%EC%A7%80%EC%97%AD/%EB%8C%80%EA%B5%AC/%EB%B6%81%EA%B5%AC/%ED%95%99%EC%95%94/index.html","destination":"/지역/대구/북구/학정/와와학습코칭센터학원/","statusCode":301},
+                      {"source":"/지역/대구/북구/학암/와와학습코칭센터학원/","destination":"/지역/대구/북구/학정/와와학습코칭센터학원/","statusCode":301},
+                      {"source":"/%EC%A7%80%EC%97%AD/%EB%8C%80%EA%B5%AC/%EB%B6%81%EA%B5%AC/%ED%95%99%EC%95%94/%EC%99%80%EC%99%80%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD%EC%84%BC%ED%84%B0%ED%95%99%EC%9B%90/","destination":"/지역/대구/북구/학정/와와학습코칭센터학원/","statusCode":301},
+                      {"source":"/지역/대구/북구/학암/와와학습코칭센터학원","destination":"/지역/대구/북구/학정/와와학습코칭센터학원/","statusCode":301},
+                      {"source":"/%EC%A7%80%EC%97%AD/%EB%8C%80%EA%B5%AC/%EB%B6%81%EA%B5%AC/%ED%95%99%EC%95%94/%EC%99%80%EC%99%80%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD%EC%84%BC%ED%84%B0%ED%95%99%EC%9B%90","destination":"/지역/대구/북구/학정/와와학습코칭센터학원/","statusCode":301},
+                      {"source":"/지역/대구/북구/학암/와와학습코칭센터학원/index.html","destination":"/지역/대구/북구/학정/와와학습코칭센터학원/","statusCode":301},
+                      {"source":"/%EC%A7%80%EC%97%AD/%EB%8C%80%EA%B5%AC/%EB%B6%81%EA%B5%AC/%ED%95%99%EC%95%94/%EC%99%80%EC%99%80%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD%EC%84%BC%ED%84%B0%ED%95%99%EC%9B%90/index.html","destination":"/지역/대구/북구/학정/와와학습코칭센터학원/","statusCode":301},
+                      {"source":"/지역/대구/북구/학정/","destination":"/지역/대구/북구/학정/와와학습코칭센터학원/","statusCode":301},
+                      {"source":"/%EC%A7%80%EC%97%AD/%EC%88%98%EC%9B%90/%EC%9E%A5%EC%95%88%EA%B5%AC/%EC%9E%A5%EC%A7%80%EB%8F%99/","destination":"/지역/수원/장안구/정자동/와와학습코칭센터학원/","statusCode":301},
+                      {"source":"/지역/수원/장안구/장지동","destination":"/지역/수원/장안구/정자동/와와학습코칭센터학원/","statusCode":301},
+                      {"source":"/%EC%A7%80%EC%97%AD/%EC%88%98%EC%9B%90/%EC%9E%A5%EC%95%88%EA%B5%AC/%EC%9E%A5%EC%A7%80%EB%8F%99","destination":"/지역/수원/장안구/정자동/와와학습코칭센터학원/","statusCode":301},
+                      {"source":"/지역/수원/장안구/장지동/index.html","destination":"/지역/수원/장안구/정자동/와와학습코칭센터학원/","statusCode":301},
+                      {"source":"/%EC%A7%80%EC%97%AD/%EC%88%98%EC%9B%90/%EC%9E%A5%EC%95%88%EA%B5%AC/%EC%9E%A5%EC%A7%80%EB%8F%99/index.html","destination":"/지역/수원/장안구/정자동/와와학습코칭센터학원/","statusCode":301},
+                      {"source":"/지역/수원/장안구/장지동/와와학습코칭센터학원/","destination":"/지역/수원/장안구/정자동/와와학습코칭센터학원/","statusCode":301},
+                      {"source":"/%EC%A7%80%EC%97%AD/%EC%88%98%EC%9B%90/%EC%9E%A5%EC%95%88%EA%B5%AC/%EC%9E%A5%EC%A7%80%EB%8F%99/%EC%99%80%EC%99%80%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD%EC%84%BC%ED%84%B0%ED%95%99%EC%9B%90/","destination":"/지역/수원/장안구/정자동/와와학습코칭센터학원/","statusCode":301},
+                      {"source":"/지역/수원/장안구/장지동/와와학습코칭센터학원","destination":"/지역/수원/장안구/정자동/와와학습코칭센터학원/","statusCode":301},
+                      {"source":"/%EC%A7%80%EC%97%AD/%EC%88%98%EC%9B%90/%EC%9E%A5%EC%95%88%EA%B5%AC/%EC%9E%A5%EC%A7%80%EB%8F%99/%EC%99%80%EC%99%80%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD%EC%84%BC%ED%84%B0%ED%95%99%EC%9B%90","destination":"/지역/수원/장안구/정자동/와와학습코칭센터학원/","statusCode":301},
+                      {"source":"/지역/수원/장안구/장지동/와와학습코칭센터학원/index.html","destination":"/지역/수원/장안구/정자동/와와학습코칭센터학원/","statusCode":301},
+                      {"source":"/%EC%A7%80%EC%97%AD/%EC%88%98%EC%9B%90/%EC%9E%A5%EC%95%88%EA%B5%AC/%EC%9E%A5%EC%A7%80%EB%8F%99/%EC%99%80%EC%99%80%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD%EC%84%BC%ED%84%B0%ED%95%99%EC%9B%90/index.html","destination":"/지역/수원/장안구/정자동/와와학습코칭센터학원/","statusCode":301},
+                      {"source":"/지역/수원/장안구/정자동/","destination":"/지역/수원/장안구/정자동/와와학습코칭센터학원/","statusCode":301},
+                      {"source":"/%EC%A7%80%EC%97%AD/%EC%A0%84%EB%B6%81/%EC%99%84%EC%A3%BC%EA%B5%B0%EC%9D%B4%EC%84%9C%EB%A9%B4/%EC%9E%A5%EB%8F%99/","destination":"/지역/전주/덕진구/장동/와와학습코칭센터학원/","statusCode":301},
+                      {"source":"/지역/전북/완주군이서면/장동","destination":"/지역/전주/덕진구/장동/와와학습코칭센터학원/","statusCode":301},
+                      {"source":"/%EC%A7%80%EC%97%AD/%EC%A0%84%EB%B6%81/%EC%99%84%EC%A3%BC%EA%B5%B0%EC%9D%B4%EC%84%9C%EB%A9%B4/%EC%9E%A5%EB%8F%99","destination":"/지역/전주/덕진구/장동/와와학습코칭센터학원/","statusCode":301},
+                      {"source":"/지역/전북/완주군이서면/장동/index.html","destination":"/지역/전주/덕진구/장동/와와학습코칭센터학원/","statusCode":301},
+                      {"source":"/%EC%A7%80%EC%97%AD/%EC%A0%84%EB%B6%81/%EC%99%84%EC%A3%BC%EA%B5%B0%EC%9D%B4%EC%84%9C%EB%A9%B4/%EC%9E%A5%EB%8F%99/index.html","destination":"/지역/전주/덕진구/장동/와와학습코칭센터학원/","statusCode":301},
+                      {"source":"/지역/전북/완주군이서면/장동/와와학습코칭센터학원/","destination":"/지역/전주/덕진구/장동/와와학습코칭센터학원/","statusCode":301},
+                      {"source":"/%EC%A7%80%EC%97%AD/%EC%A0%84%EB%B6%81/%EC%99%84%EC%A3%BC%EA%B5%B0%EC%9D%B4%EC%84%9C%EB%A9%B4/%EC%9E%A5%EB%8F%99/%EC%99%80%EC%99%80%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD%EC%84%BC%ED%84%B0%ED%95%99%EC%9B%90/","destination":"/지역/전주/덕진구/장동/와와학습코칭센터학원/","statusCode":301},
+                      {"source":"/지역/전북/완주군이서면/장동/와와학습코칭센터학원","destination":"/지역/전주/덕진구/장동/와와학습코칭센터학원/","statusCode":301},
+                      {"source":"/%EC%A7%80%EC%97%AD/%EC%A0%84%EB%B6%81/%EC%99%84%EC%A3%BC%EA%B5%B0%EC%9D%B4%EC%84%9C%EB%A9%B4/%EC%9E%A5%EB%8F%99/%EC%99%80%EC%99%80%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD%EC%84%BC%ED%84%B0%ED%95%99%EC%9B%90","destination":"/지역/전주/덕진구/장동/와와학습코칭센터학원/","statusCode":301},
+                      {"source":"/지역/전북/완주군이서면/장동/와와학습코칭센터학원/index.html","destination":"/지역/전주/덕진구/장동/와와학습코칭센터학원/","statusCode":301},
+                      {"source":"/%EC%A7%80%EC%97%AD/%EC%A0%84%EB%B6%81/%EC%99%84%EC%A3%BC%EA%B5%B0%EC%9D%B4%EC%84%9C%EB%A9%B4/%EC%9E%A5%EB%8F%99/%EC%99%80%EC%99%80%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD%EC%84%BC%ED%84%B0%ED%95%99%EC%9B%90/index.html","destination":"/지역/전주/덕진구/장동/와와학습코칭센터학원/","statusCode":301},
+                      {"source":"/지역/전주/덕진구/장동/","destination":"/지역/전주/덕진구/장동/와와학습코칭센터학원/","statusCode":301},
+                      {"source":"/%EC%A7%80%EC%97%AD/%EC%A0%84%EB%B6%81/%EC%99%84%EC%A3%BC%EA%B5%B0%EC%9D%B4%EC%84%9C%EB%A9%B4/%ED%98%81%EC%8B%A0%EB%8F%99/","destination":"/지역/전주/덕진구/혁신동/와와학습코칭센터학원/","statusCode":301},
+                      {"source":"/지역/전북/완주군이서면/혁신동","destination":"/지역/전주/덕진구/혁신동/와와학습코칭센터학원/","statusCode":301},
+                      {"source":"/%EC%A7%80%EC%97%AD/%EC%A0%84%EB%B6%81/%EC%99%84%EC%A3%BC%EA%B5%B0%EC%9D%B4%EC%84%9C%EB%A9%B4/%ED%98%81%EC%8B%A0%EB%8F%99","destination":"/지역/전주/덕진구/혁신동/와와학습코칭센터학원/","statusCode":301},
+                      {"source":"/지역/전북/완주군이서면/혁신동/index.html","destination":"/지역/전주/덕진구/혁신동/와와학습코칭센터학원/","statusCode":301},
+                      {"source":"/%EC%A7%80%EC%97%AD/%EC%A0%84%EB%B6%81/%EC%99%84%EC%A3%BC%EA%B5%B0%EC%9D%B4%EC%84%9C%EB%A9%B4/%ED%98%81%EC%8B%A0%EB%8F%99/index.html","destination":"/지역/전주/덕진구/혁신동/와와학습코칭센터학원/","statusCode":301},
+                      {"source":"/지역/전북/완주군이서면/혁신동/와와학습코칭센터학원/","destination":"/지역/전주/덕진구/혁신동/와와학습코칭센터학원/","statusCode":301},
+                      {"source":"/%EC%A7%80%EC%97%AD/%EC%A0%84%EB%B6%81/%EC%99%84%EC%A3%BC%EA%B5%B0%EC%9D%B4%EC%84%9C%EB%A9%B4/%ED%98%81%EC%8B%A0%EB%8F%99/%EC%99%80%EC%99%80%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD%EC%84%BC%ED%84%B0%ED%95%99%EC%9B%90/","destination":"/지역/전주/덕진구/혁신동/와와학습코칭센터학원/","statusCode":301},
+                      {"source":"/지역/전북/완주군이서면/혁신동/와와학습코칭센터학원","destination":"/지역/전주/덕진구/혁신동/와와학습코칭센터학원/","statusCode":301},
+                      {"source":"/%EC%A7%80%EC%97%AD/%EC%A0%84%EB%B6%81/%EC%99%84%EC%A3%BC%EA%B5%B0%EC%9D%B4%EC%84%9C%EB%A9%B4/%ED%98%81%EC%8B%A0%EB%8F%99/%EC%99%80%EC%99%80%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD%EC%84%BC%ED%84%B0%ED%95%99%EC%9B%90","destination":"/지역/전주/덕진구/혁신동/와와학습코칭센터학원/","statusCode":301},
+                      {"source":"/지역/전북/완주군이서면/혁신동/와와학습코칭센터학원/index.html","destination":"/지역/전주/덕진구/혁신동/와와학습코칭센터학원/","statusCode":301},
+                      {"source":"/%EC%A7%80%EC%97%AD/%EC%A0%84%EB%B6%81/%EC%99%84%EC%A3%BC%EA%B5%B0%EC%9D%B4%EC%84%9C%EB%A9%B4/%ED%98%81%EC%8B%A0%EB%8F%99/%EC%99%80%EC%99%80%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD%EC%84%BC%ED%84%B0%ED%95%99%EC%9B%90/index.html","destination":"/지역/전주/덕진구/혁신동/와와학습코칭센터학원/","statusCode":301},
+                      {"source":"/지역/전주/덕진구/혁신동/","destination":"/지역/전주/덕진구/혁신동/와와학습코칭센터학원/","statusCode":301},
+                      {"source":"/%EC%A7%80%EC%97%AD/%EC%A0%84%EB%B6%81/%EC%99%84%EC%A3%BC%EA%B5%B0%EC%9D%B4%EC%84%9C%EB%A9%B4/%EC%A0%84%EC%A3%BC%ED%98%81%EC%8B%A0%EB%8F%84%EC%8B%9C/","destination":"/지역/전주/덕진구/전주혁신도시/와와학습코칭센터학원/","statusCode":301},
+                      {"source":"/지역/전북/완주군이서면/전주혁신도시","destination":"/지역/전주/덕진구/전주혁신도시/와와학습코칭센터학원/","statusCode":301},
+                      {"source":"/%EC%A7%80%EC%97%AD/%EC%A0%84%EB%B6%81/%EC%99%84%EC%A3%BC%EA%B5%B0%EC%9D%B4%EC%84%9C%EB%A9%B4/%EC%A0%84%EC%A3%BC%ED%98%81%EC%8B%A0%EB%8F%84%EC%8B%9C","destination":"/지역/전주/덕진구/전주혁신도시/와와학습코칭센터학원/","statusCode":301},
+                      {"source":"/지역/전북/완주군이서면/전주혁신도시/index.html","destination":"/지역/전주/덕진구/전주혁신도시/와와학습코칭센터학원/","statusCode":301},
+                      {"source":"/%EC%A7%80%EC%97%AD/%EC%A0%84%EB%B6%81/%EC%99%84%EC%A3%BC%EA%B5%B0%EC%9D%B4%EC%84%9C%EB%A9%B4/%EC%A0%84%EC%A3%BC%ED%98%81%EC%8B%A0%EB%8F%84%EC%8B%9C/index.html","destination":"/지역/전주/덕진구/전주혁신도시/와와학습코칭센터학원/","statusCode":301},
+                      {"source":"/지역/전북/완주군이서면/전주혁신도시/와와학습코칭센터학원/","destination":"/지역/전주/덕진구/전주혁신도시/와와학습코칭센터학원/","statusCode":301},
+                      {"source":"/%EC%A7%80%EC%97%AD/%EC%A0%84%EB%B6%81/%EC%99%84%EC%A3%BC%EA%B5%B0%EC%9D%B4%EC%84%9C%EB%A9%B4/%EC%A0%84%EC%A3%BC%ED%98%81%EC%8B%A0%EB%8F%84%EC%8B%9C/%EC%99%80%EC%99%80%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD%EC%84%BC%ED%84%B0%ED%95%99%EC%9B%90/","destination":"/지역/전주/덕진구/전주혁신도시/와와학습코칭센터학원/","statusCode":301},
+                      {"source":"/지역/전북/완주군이서면/전주혁신도시/와와학습코칭센터학원","destination":"/지역/전주/덕진구/전주혁신도시/와와학습코칭센터학원/","statusCode":301},
+                      {"source":"/%EC%A7%80%EC%97%AD/%EC%A0%84%EB%B6%81/%EC%99%84%EC%A3%BC%EA%B5%B0%EC%9D%B4%EC%84%9C%EB%A9%B4/%EC%A0%84%EC%A3%BC%ED%98%81%EC%8B%A0%EB%8F%84%EC%8B%9C/%EC%99%80%EC%99%80%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD%EC%84%BC%ED%84%B0%ED%95%99%EC%9B%90","destination":"/지역/전주/덕진구/전주혁신도시/와와학습코칭센터학원/","statusCode":301},
+                      {"source":"/지역/전북/완주군이서면/전주혁신도시/와와학습코칭센터학원/index.html","destination":"/지역/전주/덕진구/전주혁신도시/와와학습코칭센터학원/","statusCode":301},
+                      {"source":"/%EC%A7%80%EC%97%AD/%EC%A0%84%EB%B6%81/%EC%99%84%EC%A3%BC%EA%B5%B0%EC%9D%B4%EC%84%9C%EB%A9%B4/%EC%A0%84%EC%A3%BC%ED%98%81%EC%8B%A0%EB%8F%84%EC%8B%9C/%EC%99%80%EC%99%80%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD%EC%84%BC%ED%84%B0%ED%95%99%EC%9B%90/index.html","destination":"/지역/전주/덕진구/전주혁신도시/와와학습코칭센터학원/","statusCode":301},
+                      {"source":"/지역/전주/덕진구/전주혁신도시/","destination":"/지역/전주/덕진구/전주혁신도시/와와학습코칭센터학원/","statusCode":301},
+                      {"source":"/%EC%A7%80%EC%97%AD/%EC%A0%84%EB%B6%81/%EC%99%84%EC%A3%BC%EA%B5%B0%EC%9D%B4%EC%84%9C%EB%A9%B4/%EB%A7%8C%EC%84%B1%EB%8F%99/","destination":"/지역/전주/덕진구/만성동/와와학습코칭센터학원/","statusCode":301},
+                      {"source":"/지역/전북/완주군이서면/만성동","destination":"/지역/전주/덕진구/만성동/와와학습코칭센터학원/","statusCode":301},
+                      {"source":"/%EC%A7%80%EC%97%AD/%EC%A0%84%EB%B6%81/%EC%99%84%EC%A3%BC%EA%B5%B0%EC%9D%B4%EC%84%9C%EB%A9%B4/%EB%A7%8C%EC%84%B1%EB%8F%99","destination":"/지역/전주/덕진구/만성동/와와학습코칭센터학원/","statusCode":301},
+                      {"source":"/지역/전북/완주군이서면/만성동/index.html","destination":"/지역/전주/덕진구/만성동/와와학습코칭센터학원/","statusCode":301},
+                      {"source":"/%EC%A7%80%EC%97%AD/%EC%A0%84%EB%B6%81/%EC%99%84%EC%A3%BC%EA%B5%B0%EC%9D%B4%EC%84%9C%EB%A9%B4/%EB%A7%8C%EC%84%B1%EB%8F%99/index.html","destination":"/지역/전주/덕진구/만성동/와와학습코칭센터학원/","statusCode":301},
+                      {"source":"/지역/전북/완주군이서면/만성동/와와학습코칭센터학원/","destination":"/지역/전주/덕진구/만성동/와와학습코칭센터학원/","statusCode":301},
+                      {"source":"/%EC%A7%80%EC%97%AD/%EC%A0%84%EB%B6%81/%EC%99%84%EC%A3%BC%EA%B5%B0%EC%9D%B4%EC%84%9C%EB%A9%B4/%EB%A7%8C%EC%84%B1%EB%8F%99/%EC%99%80%EC%99%80%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD%EC%84%BC%ED%84%B0%ED%95%99%EC%9B%90/","destination":"/지역/전주/덕진구/만성동/와와학습코칭센터학원/","statusCode":301},
+                      {"source":"/지역/전북/완주군이서면/만성동/와와학습코칭센터학원","destination":"/지역/전주/덕진구/만성동/와와학습코칭센터학원/","statusCode":301},
+                      {"source":"/%EC%A7%80%EC%97%AD/%EC%A0%84%EB%B6%81/%EC%99%84%EC%A3%BC%EA%B5%B0%EC%9D%B4%EC%84%9C%EB%A9%B4/%EB%A7%8C%EC%84%B1%EB%8F%99/%EC%99%80%EC%99%80%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD%EC%84%BC%ED%84%B0%ED%95%99%EC%9B%90","destination":"/지역/전주/덕진구/만성동/와와학습코칭센터학원/","statusCode":301},
+                      {"source":"/지역/전북/완주군이서면/만성동/와와학습코칭센터학원/index.html","destination":"/지역/전주/덕진구/만성동/와와학습코칭센터학원/","statusCode":301},
+                      {"source":"/%EC%A7%80%EC%97%AD/%EC%A0%84%EB%B6%81/%EC%99%84%EC%A3%BC%EA%B5%B0%EC%9D%B4%EC%84%9C%EB%A9%B4/%EB%A7%8C%EC%84%B1%EB%8F%99/%EC%99%80%EC%99%80%ED%95%99%EC%8A%B5%EC%BD%94%EC%B9%AD%EC%84%BC%ED%84%B0%ED%95%99%EC%9B%90/index.html","destination":"/지역/전주/덕진구/만성동/와와학습코칭센터학원/","statusCode":301},
+                      {"source":"/지역/전주/덕진구/만성동/","destination":"/지역/전주/덕진구/만성동/와와학습코칭센터학원/","statusCode":301},
+                      {"source":"/지역/전북/","destination":"/지역/전주/","statusCode":301},
+                      {"source":"/%EC%A7%80%EC%97%AD/%EC%A0%84%EB%B6%81/","destination":"/지역/전주/","statusCode":301},
+                      {"source":"/지역/전북","destination":"/지역/전주/","statusCode":301},
+                      {"source":"/%EC%A7%80%EC%97%AD/%EC%A0%84%EB%B6%81","destination":"/지역/전주/","statusCode":301},
+                      {"source":"/지역/전북/index.html","destination":"/지역/전주/","statusCode":301},
+                      {"source":"/%EC%A7%80%EC%97%AD/%EC%A0%84%EB%B6%81/index.html","destination":"/지역/전주/","statusCode":301},
+                      {"source":"/지역/전북/완주군이서면/","destination":"/지역/전주/덕진구/","statusCode":301},
+                      {"source":"/%EC%A7%80%EC%97%AD/%EC%A0%84%EB%B6%81/%EC%99%84%EC%A3%BC%EA%B5%B0%EC%9D%B4%EC%84%9C%EB%A9%B4/","destination":"/지역/전주/덕진구/","statusCode":301},
+                      {"source":"/지역/전북/완주군이서면","destination":"/지역/전주/덕진구/","statusCode":301},
+                      {"source":"/%EC%A7%80%EC%97%AD/%EC%A0%84%EB%B6%81/%EC%99%84%EC%A3%BC%EA%B5%B0%EC%9D%B4%EC%84%9C%EB%A9%B4","destination":"/지역/전주/덕진구/","statusCode":301},
+                      {"source":"/지역/전북/완주군이서면/index.html","destination":"/지역/전주/덕진구/","statusCode":301},
+                      {"source":"/%EC%A7%80%EC%97%AD/%EC%A0%84%EB%B6%81/%EC%99%84%EC%A3%BC%EA%B5%B0%EC%9D%B4%EC%84%9C%EB%A9%B4/index.html","destination":"/지역/전주/덕진구/","statusCode":301}
                   ]
 }

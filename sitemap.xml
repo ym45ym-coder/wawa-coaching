@@ -517,18 +517,6 @@
     <priority>0.75</priority>
   </url>
   <url>
-    <loc>https://wawacoaching.kr/지역/전북/</loc>
-    <lastmod>2026-08-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
-  </url>
-  <url>
-    <loc>https://wawacoaching.kr/지역/전북/완주군이서면/</loc>
-    <lastmod>2026-08-05</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.75</priority>
-  </url>
-  <url>
     <loc>https://wawacoaching.kr/지역/전주/</loc>
     <lastmod>2026-08-05</lastmod>
     <changefreq>weekly</changefreq>
@@ -1837,7 +1825,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://wawacoaching.kr/지역/대구/북구/학암동/와와학습코칭센터학원/</loc>
+    <loc>https://wawacoaching.kr/지역/대구/북구/학정동/와와학습코칭센터학원/</loc>
     <lastmod>2026-08-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -1849,7 +1837,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://wawacoaching.kr/지역/대구/북구/학암/와와학습코칭센터학원/</loc>
+    <loc>https://wawacoaching.kr/지역/대구/북구/학정/와와학습코칭센터학원/</loc>
     <lastmod>2026-08-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -2743,7 +2731,7 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://wawacoaching.kr/지역/수원/장안구/장지동/와와학습코칭센터학원/</loc>
+    <loc>https://wawacoaching.kr/지역/수원/장안구/정자동/와와학습코칭센터학원/</loc>
     <lastmod>2026-08-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
@@ -3589,25 +3577,25 @@
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://wawacoaching.kr/지역/전북/완주군이서면/장동/와와학습코칭센터학원/</loc>
+    <loc>https://wawacoaching.kr/지역/전주/덕진구/장동/와와학습코칭센터학원/</loc>
     <lastmod>2026-08-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://wawacoaching.kr/지역/전북/완주군이서면/혁신동/와와학습코칭센터학원/</loc>
+    <loc>https://wawacoaching.kr/지역/전주/덕진구/혁신동/와와학습코칭센터학원/</loc>
     <lastmod>2026-08-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://wawacoaching.kr/지역/전북/완주군이서면/전주혁신도시/와와학습코칭센터학원/</loc>
+    <loc>https://wawacoaching.kr/지역/전주/덕진구/전주혁신도시/와와학습코칭센터학원/</loc>
     <lastmod>2026-08-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://wawacoaching.kr/지역/전북/완주군이서면/만성동/와와학습코칭센터학원/</loc>
+    <loc>https://wawacoaching.kr/지역/전주/덕진구/만성동/와와학습코칭센터학원/</loc>
     <lastmod>2026-08-05</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
