@@ -1,4 +1,4 @@
-﻿@import url("https://cdn.jsdelivr.net/gh/eunchurn/NanumSquareNeo@0.0.6/nanumsquareneo.css");
+@import url("https://cdn.jsdelivr.net/gh/eunchurn/NanumSquareNeo@0.0.6/nanumsquareneo.css");
 
 :root {
     color-scheme: light;
@@ -1998,5 +1998,43 @@ td:first-child {
 :where(body:not(.home-page)) .region-hero-copy > .section-label {
     display: none;
 }
+:where(body:not(.home-page)) .academy-accordion {
+    text-align: center;
+}
 
+:where(body:not(.home-page)) .intro-section .intro-grid {
+    row-gap: 6px;
+}
+
+:where(body:not(.home-page)) .academy-accordion summary {
+    display: inline-block;
+    list-style: none;
+    cursor: pointer;
+    color: #b6bbb6;
+    font-size: 10px;
+    font-weight: 300;
+}
+
+:where(body:not(.home-page)) .academy-accordion summary::-webkit-details-marker {
+    display: none;
+}
+
+:where(body:not(.home-page)) .academy-accordion summary:focus-visible {
+    outline: 2px solid currentColor;
+    outline-offset: 4px;
+}
+
+:where(body:not(.home-page)) .academy-accordion[open] summary {
+    margin-bottom: 12px;
+}
+
+:where(body:not(.home-page)) .academy-accordion[open] .academy-more,
+:where(body:not(.home-page)) .academy-accordion:not([open]) .academy-less {
+    display: none;
+}
+
+:where(body:not(.home-page)) .academy-accordion-content p {
+    font-size: 12px;
+    font-weight: 300;
+}
 
