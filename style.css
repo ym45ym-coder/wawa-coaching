@@ -626,6 +626,16 @@ h2 {
     border-radius: var(--radius);
 }
 
+.academy-video {
+    display: block;
+    width: min(100%, 694px);
+    aspect-ratio: 16 / 9;
+    height: auto;
+    margin: 18px auto 0;
+    border: 0;
+    border-radius: var(--radius);
+}
+
 .subject-guide-grid {
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
