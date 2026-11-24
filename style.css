@@ -694,6 +694,14 @@ h2 {
     gap: 18px;
 }
 
+.program-layout-simple {
+    grid-template-columns: 1fr;
+}
+
+.program-layout-simple .program-stack {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
 .region-grid {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -1566,6 +1574,10 @@ td:first-child {
     .program-layout {
         grid-template-columns: 1fr;
         gap: 22px;
+    }
+
+    .program-layout-simple .program-stack {
+        grid-template-columns: 1fr;
     }
 
     .managed-class-card {
